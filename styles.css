@@ -1,0 +1,95 @@
+/* General page styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f4f4f0; /* light cream background */
+    color: #1e3932; /* Starbucks dark green for text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+h2 {
+    color: #00704A; /* Starbucks green */
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+h3 {
+    color: #004d3b; /* darker green */
+    margin-bottom: 5px;
+}
+
+h5 {
+    color: #6b4c3b; /* coffee brown */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+/* Card styling */
+.card {
+    background-color: #88bc8b; /* white cards */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Slider styling */
+input[type="range"] {
+    accent-color: #00704A; /* Starbucks green slider */
+}
+
+/* Button styling */
+button {
+    background-color: #00704A;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #004d3b;
+    transform: scale(1.05);
+}
+
+/* Plot styling */
+svg {
+    background-color: #f4f4f0;
+    border-radius: 8px;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #e0e0e0;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #00704A;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
